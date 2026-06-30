@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5g0076/v1
+canonical_location: https://kanripo.org/bkk/KR5g0076/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 九天上聖祕傳金符經
+  identifiers:
+    alt_id:
+    - DZ1267
+  date: '2015-08-29 02:53:48.644668'
+  source:
+    repository: kanripo
+    path: KR5g0076
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0076_000.yaml, hash: 'sha256:ca030daebb73b28c74ce5063bebd16b4652f49d1ad80982ed07f3d6bdda78f44'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0076_000.markers.yaml, hash: 'sha256:96721da733b48c782763ad50c5d9d6c91788c900b8071de040011428864569b2'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0076_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2864
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:c0df5c2cc60259d399787349ef0040318aff1d757d694d9727b0f8525c98649f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

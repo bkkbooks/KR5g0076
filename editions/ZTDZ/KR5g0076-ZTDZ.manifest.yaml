@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0076/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0076/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 九天上聖祕傳金符經
+  date: '2015-08-29 02:53:48.644668'
+  source:
+    repository: kanripo
+    path: KR5g0076
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0076_000-ZTDZ.yaml, hash: 'sha256:600c118c5508cfccd409ec744b2ed89ca9f04e9e025a1f3df7891c1d518c4238'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0076_000-ZTDZ.markers.yaml, hash: 'sha256:a2f84659483fce98b0f6f23a3c0f3ae70887fc95e3012a6935a154f147ef705c'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0076_SJB_000-320557b
+    span:
+    - body
+    - 0
+    - 2864
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:76e7e126ce650033d341458376cee7cc09677ba15aa03436a06c76f2cd415897
